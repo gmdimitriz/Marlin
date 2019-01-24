@@ -81,6 +81,8 @@
   #include "pins_RAMPS_PLUS.h"        // ATmega1280, ATmega2560                     env:megaatmega1280 env:megaatmega2560
 #elif MB(RAMPS_PLUS_EEF)
   #include "pins_RAMPS_PLUS.h"        // ATmega1280, ATmega2560                     env:megaatmega1280 env:megaatmega2560
+#elif MB(RAMPS_14_VORON)
+  #include "pins_RAMPS_14_VORON.h"
 #elif MB(RAMPS_PLUS_SF)
   #include "pins_RAMPS_PLUS.h"        // ATmega1280, ATmega2560                     env:megaatmega1280 env:megaatmega2560
 
